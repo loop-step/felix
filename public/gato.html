@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gato</title>
+</head>
+<body>
+    <div style="margin: 2px;">
+
+</div>
+
+    <style>
+
+        body {
+            background-color: black;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+            text-size-adjust: 10px;
+            box-sizing: 20px;
+        
+            background-color: wheat;
+            margin-top: 50px;
+            margin-left: 300px;
+            margin-right: 300px;
+            margin-bottom: 0px;
+
+            border: 6px dashed rgb(255, 255, 255);
+
+            padding-top: 30px;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-bottom: 30px;
+
+            text-align: center;
+            border-radius: 10px;
+
+        }
+    
+        input {          
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            flex-grow: 1;
+            flex-shrink: 3;
+            flex-basis: 1;
+            align-items: center;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .alinhar {
+            text-align: center;
+        }
+
+        button {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            flex-grow: 1;
+            flex-shrink: 8;
+            flex-basis: 1;
+            font-size: 30px;
+            border-radius: 10px 10px;
+        }
+
+    </style>
+
+    <div>
+
+      <header class="alinhar">
+     <h1 style="color: white; font-family: fantasy; font-kerning: 3px;">Cadastre-se!</h1>
+
+      </header>
+
+    </div>
+
+    <div class="container">
+        <img src="../img/gato felix bolsa.png" alt="mirrored">
+           <div class="input">
+          <input type="text" id="nome" placeholder="Seu nome"><br>
+          <input type="text" id="mail" placeholder="Preencha com E-mail"><br>
+          <input type="text" id="idade" placeholder="Coloque sua idade"><br>
+          <br>
+          <div class="button">
+          <button type="button">Cadastrar</button>
+
+        </div>    
+    </div>
+</body>
+</html>
