@@ -7,7 +7,14 @@
 </head>
 <body>
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+
   <style>
+      
+      nav{
+        margin: 40px;
+      }
       header{
         text-align: center;
         background-color: brown;
@@ -61,7 +68,7 @@
 
     <header class="alinhar">
 
-         <img src="../img/Felix-2-ink1.webp" alt="Gato!">
+         <img src="img/Felix-2-ink1.webp" alt="Gato!">
          <nav>
             <a href="#">Home</a>
             <a href="public/sobre.html">sobre</a>    
@@ -73,21 +80,21 @@
    
     <main>
 
-      <article>
-      <h1 style="width: 800px;">HE´S COMING</h1>
+      <article class="formulario">
+      <h1 style="width: 800px; text-align: center; padding-right: 40px; position: relative; left: 300px;">HE'S COMING</h1>
       <p><strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit temporibus inventore reprehenderit obcaecati, quis adipisci deleniti rerum amet, voluptatibus soluta fugiat quisquam fuga impedit, esse libero recusandae cum doloremque expedita.</strong></p>
       <p style="font-size: 30px; color:rgb(89, 0, 0); font-family: fantasy;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam saepe est excepturi voluptate. Quia tenetur, suscipit placeat nemo natus error eum explicabo laboriosam quos id soluta quasi. Perspiciatis, unde iste?.</p>
       </article>
-
       <br>
       <br>
 
       <aside>
-        <img src="../img/gato felix bolsa.png" alt="Outro gato">
+        <img src="img/gato felix bolsa.png" alt="Outro gato">
       </aside>
 
       <aside>
         <div id="personagem">
+        <div style="position: relative; left: 200px;">
         <h3 class="alinhar formatar">Categorias</h3>
         <h4>Fossos</h4>
         <h5>Venda figuinhos</h5>
@@ -95,13 +102,18 @@
         </div>
       </aside>
 
-      <aside>
-        <div class="formulario">
-          <input type="text" id="nome" placeholder="coloque seu nome"><br>
-          <input type="text" id="mail" placeholder="preencha com E-mail"><br>
-          <input type="text" id="idade" placeholder="coloque sua idade"><br>
-          <br>
-          <button type="button">Cadastrar</button>
+              <aside>
+                <div id="formulario" style="text-align: center;">
+                  <form action="">
+                  <input type="text" id="nome" placeholder="coloque seu nome"><br>
+                  <input type="text" id="mail" placeholder="preencha com E-mail"><br>
+                  <input type="text" id="idade" placeholder="coloque sua idade"><br>
+                  <br>
+                  <button type="button">Cadastrar</button>
+                  <div id="botao">
+                  </form>
+              </div>
+            <div>
         </div>
       </aside>
 
@@ -115,4 +127,3 @@
 
 </body>
 </html>
-
